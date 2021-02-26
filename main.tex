@@ -1,0 +1,49 @@
+\documentclass[sigplan,11pt,screen,nonacm]{acmart}
+\settopmatter{printacmref=false}
+\setcopyright{none}
+\usepackage{hyperref}
+\usepackage[ngerman]{babel}
+% Titel "Zusammenfassung" zu "Abstract" ändern
+\addto\captionsngerman{\renewcommand{\abstractname}{Abstract}}
+
+\begin{document}
+% Festlegung Art der Zitierung - Havardmethode: Abkuerzung Autor + Jahr
+\bibliographystyle{alphadin}
+
+% Sorgt für Silbentrennung und Einhaltung der Spaltenbreite
+\sloppy
+
+\interfootnotelinepenalty=10000
+	
+\title{Decentralized Web}
+\subtitle{Das Internet der Zukunft?}
+
+\author{Benedikt Weber}
+\email{benedikt.weber@mni.thm.de}
+
+%% A "teaser" image appears between the author and affiliation
+%% information and the body of the document, and typically spans the
+%% page.
+\begin{teaserfigure}
+	\includegraphics[width=\textwidth]{images/teaser}
+	\caption{Beispielhaftes Konzept eines dezentralen Netzwerks~\cite{shivang.2018}}
+	\label{fig:teaser}
+	\bigskip
+\end{teaserfigure}
+
+\input{abstract}
+
+\maketitle
+
+\input{chapter/01_Einleitung}
+\input{chapter/02_Begriffsdefinitionen}
+\input{chapter/03_Web2}
+\input{chapter/04_Web3}
+\input{chapter/05_Ausblick}
+
+
+% Literaturliste endgueltig anzeigen
+\bibliography{Quellen}
+
+\end{document}
+\endinput

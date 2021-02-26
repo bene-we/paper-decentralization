@@ -1,0 +1,53 @@
+\section{Einleitung}
+
+Seitdem das Internet für die Öffentlichkeit freigegeben wurde, hat es sich in kurzer Zeit sehr
+stark entwickelt. Zu Beginn wurden immer mehr Computer miteinander verbunden, was den
+Datenaustausch massiv beschleunigte. Durch die Einführung der Standards von Tim Berners-Lee um 1990~\cite{Krause.2008} wurde es relativ einfach, Webseiten mit wenigen Zeilen Code
+darzustellen. Dies ermöglichte es den Nutzern, schnell auf Informationen und Ressourcen
+zuzugreifen, die Navigation erfolgte dabei im Web durch Hyperlinks und Suchmaschinen. Diese
+Phase reicht bis ins Jahr 2003 und wird als Web~1.0 bezeichnet. Als Killer-Applikation
+\footnote{
+	\label{footnote:KillerAnwendung}Eine Anwendung, die einer bestimmten Technik zum Durchbruch verhalf~\cite{Duden.2019}
+}
+gilt der Web-Browser, der den Menschen Zugang zum World Wide Web gewährte. Mit der Einführung
+von Social-Media- und e-Commerce-Plattformen brach die Phase des sogenannten Web~2.0 an,
+in der wir uns derzeit befinden. Diese Phase wird als Frontend-Revolution bezeichnet~\cite[S. 23]{Voshmgir.2019}. Der bedeutendste Unterschied liegt dabei in der Zugriffsart: Während
+das Web~1.0 den Nutzern überwiegend lesenden Zugriff auf Ressourcen bot, konnten die Nutzer
+am Web~2.0 partizipieren und soziale Interaktionen durchführen. Im Web~1.0 gab es also Webseiten eines Betreibers, die sich Nutzer ansehen konnten. Im Web~2.0 standen dann Seiten wie Wikipedia zur Verfügung, deren Inhalt verschiedenste Seitenbesucher bearbeiten konnten. Für solchen Interaktionen wird jedoch immer ein Mittelsmann benötigt, also eine Plattform, die zwei Personen, die sich nicht kennen und nicht vertrauen, eine Möglichkeit des Austauschs bietet. Die dahinterliegende Infrastruktur nennt sich Client-Server-Architektur: Ein Server stellt einen Dienst zur Verfügung, auf den mehrere Clients Zugriff erhalten und sich somit untereinander verknüpfen können.
+
+\smallskip
+
+Doch obwohl es immer mehr Endgeräte mit Zugang zum Web gibt~\cite{CiscoSystems.2011}, hat sich diese Struktur nicht verändert. Das Problem an dieser Stelle: Es entstehen Abhängigkeiten von den einzelnen Servern, die mitt\-ler\-wei\-le eine Vielzahl von Clients bedienen müssen, und die einen SPoF
+\footnote{
+	Single Point of Failure: Die Komponente eines Systems, ohne die das System nicht betriebsbereit ist~\cite{ITWissen.info.2017}
+}
+darstellen. 
+Und diese technischen Aspekte sind nicht einmal die größten Probleme, die das World Wide Web heute mit sich bringt. 
+Denn Abhängigkeiten bestehen auch zwischen den Nutzern und den Anbietern der Web-Dienste, wodurch bei großen Nutzerzahlen enormer Einfluss auf die Gesellschaft ausgeübt werden kann. 
+Des Weiteren verdrängen oft Tech-Giganten wie Google, Apple, Facebook oder Amazon~\cite{Beutelsbacher.2016} die Konkurrenz vom Markt, wodurch Nutz\-ern oft keine richtigen Optionen bei der Auswahl der Dienste bleibt, denen sie ihre Daten anvertrauen. 
+Dabei haben laut einer Umfrage Ende 2017 in
+Deutschland lediglich 32\% der Befragten Vertrauen bezüglich der Einhaltung des
+Datenschutzes in Google, bei Facebook sind es gerade einmal 18\%~\cite{Horizont.2017}.
+Kommuniziert ein Client mit einem Server, speichert dieser Informationen über den Client,
+und der Nutzer gibt mit jedem Request einen Teil der Kontrolle über seine Privatsphäre preis~\cite[S. 21]{Voshmgir.2019}.
+
+Aus dieser Kritik heraus entstand die Idee des Decentralized Web, auch Web3 genannt. Beim
+Konzept der Dezentralisierung wird die Architektur von Clients und Servern aufgebrochen,
+denn das Netzwerk wird von „alle[n] Nutzer[n] und ein[em] Netzwerk unabhängiger Rechner
+und Server“~\cite{Bonset.2019} betrieben. Im Web3 verändert sich das Frontend, also die Seiten, wie sie heute existieren, nicht. Stattdessen verändert sich das Backend massiv, da andere grundlegende Technologien benötigt werden.
+
+\smallskip
+
+Das Ziel dieser Seminararbeit soll sein, dem Leser oder der Leserin einen einfachen und
+verständlichen Einblick in das Thema der Dezentralisierung zu gewähren, da das Web seine
+Geschichte des schnellen Wandels fortführen wird. Dabei stellt das Decentralized Web als
+solches eine Möglichkeit der Weiterentwicklung des heutigen Internets dar. Des Weiteren ist
+es wichtig, den Nutzern des Internets die Dringlichkeit der aktuellen Datenschutz-Problematik
+näher zu bringen, und gleichzeitig Lösungen für diese Probleme zu erörtern. Denn der strikte
+Rückzug aus personalisierten Webdiensten entspricht nicht dem Ziel des Internets und ist
+genauso wenig eine Lösung, wie die gesamten eigenen Daten ohne jegliche Kontrolle
+weiterzugeben, um irgendwann beispielsweise als gläserner Mensch dazustehen. Die Leser
+dieser Arbeit sollen genug Informationen an die Hand bekommen, um sich kritisch mit der
+aktuellen Situation des Internets auseinandersetzen zu können und gleichzeitig eine Einführung in eine Technik erhalten, die vielleicht in Zukunft Einzug in den Alltag halten wird.
+
+
